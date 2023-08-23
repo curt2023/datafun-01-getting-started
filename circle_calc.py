@@ -57,7 +57,7 @@ logger.info("Eww... that's a lot of decimal places - tmi!")
 # Pass in 2 arguments to the round() function.
 #     The first argument is the value to round.
 #     The second argument is the number of decimal places (make it 2 not 12)
-area = round(area, 12)
+area = round(area, 2)
 
 # log the results
 logger.info(f"The area of a circle with radius {radius} is {area}.")

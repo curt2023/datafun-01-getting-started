@@ -68,7 +68,7 @@ logger.info(f"max(number_list) = {largest}")
 print()
 
 # Greet the user
-print("Greetings!")
+print("Howdy!!")
 
 # Get the user's name and greet them
 name = input("What's your name? (type your name and hit enter): ")
@@ -93,3 +93,10 @@ if response == "y":
     print()
 
 # TODO: Run with different responses n, y, other...
+
+if response == "n":
+    print()
+    print("You are missing out on a lot of fun. Python makes it easy!")
+    print("If you change your mind there are a lot of built-in functions ready to use!")
+    print("We'll learn more about them later.")
+    print()
