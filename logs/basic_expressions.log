@@ -1,10 +1,10 @@
-2023-08-23 04:40:32,212.basic_expressions.INFO ==================================================
-2023-08-23 04:40:32,212.basic_expressions.INFO Today is 2023-08-23 at 04:40 AM
-2023-08-23 04:40:32,246.basic_expressions.INFO Running on: nt Windows 10
-2023-08-23 04:40:32,247.basic_expressions.INFO Python version:  3.11.4
-2023-08-23 04:40:32,248.basic_expressions.INFO Python path: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-01-getting-started\.venv
-2023-08-23 04:40:32,248.basic_expressions.INFO Working dir: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-01-getting-started
-2023-08-23 04:40:32,249.basic_expressions.INFO ==================================================
-2023-08-23 04:40:32,250.basic_expressions.INFO Given base=50 and height=25, triangle area = 625.0
-2023-08-23 04:40:32,250.basic_expressions.INFO Given float_num1=1.1 and float_num2=2.2, sum = 3.3000000000000003
-2023-08-23 04:40:32,251.basic_expressions.INFO Given num1=250 and num2=100, the difference = 150
+2023-08-23 04:49:19,181.basic_expressions.INFO ==================================================
+2023-08-23 04:49:19,181.basic_expressions.INFO Today is 2023-08-23 at 04:49 AM
+2023-08-23 04:49:19,212.basic_expressions.INFO Running on: nt Windows 10
+2023-08-23 04:49:19,213.basic_expressions.INFO Python version:  3.11.4
+2023-08-23 04:49:19,213.basic_expressions.INFO Python path: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-01-getting-started\.venv
+2023-08-23 04:49:19,214.basic_expressions.INFO Working dir: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-01-getting-started
+2023-08-23 04:49:19,214.basic_expressions.INFO ==================================================
+2023-08-23 04:49:19,215.basic_expressions.INFO Given base=50 and height=25, triangle area = 625.0
+2023-08-23 04:49:19,215.basic_expressions.INFO Given float_num1=1.1 and float_num2=2.2, sum = 3.3000000000000003
+2023-08-23 04:49:19,215.basic_expressions.INFO Given num1=250 and num2=100, the difference = 150
