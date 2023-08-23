@@ -1,0 +1,11 @@
+2023-08-23 04:46:08,469.circle_calc.INFO ==================================================
+2023-08-23 04:46:08,470.circle_calc.INFO Today is 2023-08-23 at 04:46 AM
+2023-08-23 04:46:08,502.circle_calc.INFO Running on: nt Windows 10
+2023-08-23 04:46:08,503.circle_calc.INFO Python version:  3.11.4
+2023-08-23 04:46:08,503.circle_calc.INFO Python path: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-01-getting-started\.venv
+2023-08-23 04:46:08,504.circle_calc.INFO Working dir: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-01-getting-started
+2023-08-23 04:46:08,505.circle_calc.INFO ==================================================
+2023-08-23 04:46:21,064.circle_calc.INFO The area of a circle with radius 30.0 is 2827.4333882308138.
+2023-08-23 04:46:21,064.circle_calc.INFO Eww... that's a lot of decimal places - tmi!
+2023-08-23 04:46:21,064.circle_calc.INFO The area of a circle with radius 30.0 is 2827.43.
+2023-08-23 04:46:21,064.circle_calc.INFO Much better! (After you fix it.)
