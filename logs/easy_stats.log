@@ -1,0 +1,31 @@
+2023-08-23 04:50:26,146.easy_stats.INFO ==================================================
+2023-08-23 04:50:26,162.easy_stats.INFO Today is 2023-08-23 at 04:50 AM
+2023-08-23 04:50:26,195.easy_stats.INFO Running on: nt Windows 10
+2023-08-23 04:50:26,195.easy_stats.INFO Python version:  3.11.4
+2023-08-23 04:50:26,196.easy_stats.INFO Python path: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-01-getting-started\.venv
+2023-08-23 04:50:26,196.easy_stats.INFO Working dir: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-01-getting-started
+2023-08-23 04:50:26,197.easy_stats.INFO ==================================================
+2023-08-23 04:50:26,242.easy_stats.INFO uni_data = [105, 129, 87, 86, 111, 111, 89, 81, 108, 92, 110, 100, 75, 105, 103, 109, 76, 119, 99, 91, 103, 129, 106, 101, 84, 111, 74, 87, 86, 103, 103, 106, 86, 111, 75, 87, 102, 121, 111, 88, 89, 101, 106, 95, 103, 107, 101, 81, 109, 104]
+2023-08-23 04:50:26,245.easy_stats.INFO mean   = 99.12
+2023-08-23 04:50:26,245.easy_stats.INFO median = 102.50
+2023-08-23 04:50:26,246.easy_stats.INFO mode   = 111.00
+2023-08-23 04:50:26,247.easy_stats.INFO var    =  + str179.25
+2023-08-23 04:50:26,247.easy_stats.INFO stdev  =  + str13.39
+2023-08-23 04:50:26,248.easy_stats.INFO lowest =  + str74.00
+2023-08-23 04:50:26,249.easy_stats.WARNING Correlation requires Python version 3.10 or greater.
+2023-08-23 04:50:26,250.easy_stats.WARNING Your version is 3.11
+2023-08-23 04:50:26,251.easy_stats.INFO Here's some time series data:
+2023-08-23 04:50:26,251.easy_stats.INFO xtimes:[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+2023-08-23 04:50:26,251.easy_stats.INFO yvalues:[2, 5, 8, 20, 21, 23, 24, 27, 30, 31, 31, 32]
+2023-08-23 04:50:26,252.easy_stats.INFO correlation between xtimes and xtimes = 1.00
+2023-08-23 04:50:26,252.easy_stats.INFO correlation between xtimes and yvalues = 0.94
+2023-08-23 04:50:26,252.easy_stats.INFO Here's some bivariant data (2 variables, together):
+2023-08-23 04:50:26,253.easy_stats.INFO x:[-200, -150, -100, 50, 0, 50, 100, 150]
+2023-08-23 04:50:26,253.easy_stats.INFO y:[-240, -165, -99, 35, 19, 75, 130, 125]
+2023-08-23 04:50:26,253.easy_stats.INFO Calculate the slope and intercept of a best fit straight line:
+2023-08-23 04:50:26,254.easy_stats.INFO    slope = 1.09
+2023-08-23 04:50:26,254.easy_stats.INFO    intercept = -1.39
+2023-08-23 04:50:26,254.easy_stats.INFO Let's use our best fit line to PREDICT a future value.
+2023-08-23 04:50:26,255.easy_stats.INFO    At future x = 200,
+2023-08-23 04:50:26,255.easy_stats.INFO    we predict the value of y will be 216.
+2023-08-23 04:50:26,255.easy_stats.INFO How'd we do? Does this make sense given the data?
