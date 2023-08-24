@@ -1,0 +1,33 @@
+2023-08-24 03:16:33,838.bonus2_curtis.INFO ==================================================
+2023-08-24 03:16:33,838.bonus2_curtis.INFO Today is 2023-08-24 at 03:16 AM
+2023-08-24 03:16:33,894.bonus2_curtis.INFO Running on: nt Windows 10
+2023-08-24 03:16:33,894.bonus2_curtis.INFO Python version:  3.11.4
+2023-08-24 03:16:33,894.bonus2_curtis.INFO Python path: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-01-getting-started\.venv
+2023-08-24 03:16:33,902.bonus2_curtis.INFO Working dir: C:\Users\ctrog\OneDrive\Documents\Data Analytics Masters\GIT Hub\datafun-01-getting-started
+2023-08-24 03:16:33,902.bonus2_curtis.INFO ==================================================
+2023-08-24 03:16:33,926.bonus2_curtis.INFO Final scores for the John Glenn Rockets 2023
+2023-08-24 03:16:33,926.bonus2_curtis.INFO uni_data = [34, 26, 98, 17, 85, 42, 76, 105, 57, 1, 29, 43, 87, 86, 89, 81, 65, 92, 110, 100, 75, 76, 99, 91, 103, 106, 101, 84, 4]
+2023-08-24 03:16:33,926.bonus2_curtis.INFO mean   = 71.10
+2023-08-24 03:16:33,926.bonus2_curtis.INFO median = 84.00
+2023-08-24 03:16:33,926.bonus2_curtis.INFO mode   = 76.00
+2023-08-24 03:16:33,926.bonus2_curtis.INFO var    =  + str1059.88
+2023-08-24 03:16:33,926.bonus2_curtis.INFO stdev  =  + str32.56
+2023-08-24 03:16:33,934.bonus2_curtis.INFO lowest =  + str1.00
+2023-08-24 03:16:33,934.bonus2_curtis.WARNING Correlation requires Python version 3.10 or greater.
+2023-08-24 03:16:33,934.bonus2_curtis.WARNING Your version is 3.11
+2023-08-24 03:16:33,934.bonus2_curtis.INFO Here's some time series data:
+2023-08-24 03:16:33,934.bonus2_curtis.INFO xtimes:[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+2023-08-24 03:16:33,942.bonus2_curtis.INFO yvalues:[2, 5, 8, 20, 21, 23, 24, 27, 30, 31, 31, 32]
+2023-08-24 03:16:33,942.bonus2_curtis.INFO correlation between xtimes and xtimes = 1.00
+2023-08-24 03:16:33,942.bonus2_curtis.INFO correlation between xtimes and yvalues = 0.94
+2023-08-24 03:16:33,942.bonus2_curtis.INFO Stats for the John Glenn Rockets 2023
+2023-08-24 03:16:33,942.bonus2_curtis.INFO Here's some bivariant data (2 variables, together):
+2023-08-24 03:16:33,942.bonus2_curtis.INFO x:[-200, -150, -100, 50, 0, 50, 100, 150]
+2023-08-24 03:16:33,942.bonus2_curtis.INFO y:[-240, -165, -99, 35, 19, 75, 130, 125]
+2023-08-24 03:16:33,942.bonus2_curtis.INFO Calculate the slope and intercept of a best fit straight line:
+2023-08-24 03:16:33,942.bonus2_curtis.INFO    slope = 1.09
+2023-08-24 03:16:33,942.bonus2_curtis.INFO    intercept = -1.39
+2023-08-24 03:16:33,942.bonus2_curtis.INFO Let's use our best fit line to PREDICT a future value.
+2023-08-24 03:16:33,942.bonus2_curtis.INFO    At future x = 76,
+2023-08-24 03:16:33,950.bonus2_curtis.INFO    we predict the value of y will be 81.
+2023-08-24 03:16:33,950.bonus2_curtis.INFO How'd we do? Does this make sense given the data?

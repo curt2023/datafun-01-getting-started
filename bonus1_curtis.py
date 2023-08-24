@@ -38,27 +38,44 @@ import math
 # Use the math module's constant for pi
 pi = math.pi
 
-# get the radius from the user - input result is always a string
+# get the total points from the user - input result is always a string
 # Use \n to add a blank new line to the terminal before we ask for input
-radius_string = input("\nEnter the radius of a circle: ")
+season1_total_points = input("\nEnter the total points for the first season: ")
+season2_total_points = input("\nEnter the total points for the second season: ")
+number_of_games = input("\nEnter the number of games played ")
 
-# convert the radius_string to a number
-radius = float(radius_string)
+#convert string to a number
+season1 = int(season1_total_points)
+season2 = int(season2_total_points)
+games = int(number_of_games)
 
-# calculate the area using the numeric value (not the string)
-area = pi * radius**2
+#minimum and max value formula
+minimum = season1  
+
+if season2 < minimum:
+    minimum = season2
+
+maximum = season1
+
+if season2 > maximum:
+    maximum = season2
+
+#calulate the 
+total_points_scored = season1 + season2
+average_total_points = (total_points_scored) / games
+lowest_season_total = minimum
+highest_season_total = maximum
+
+#round average
+average_total_points = round(average_total_points)
+
+
 
 # log the results
-logger.info(f"The area of a circle with radius {radius} is {area}.")
-logger.info("Eww... that's a lot of decimal places - tmi!")
+logger.info(f"The total points scored during the two seasons is {total_points_scored}.")
+logger.info(f"The average points scored per game is {average_total_points}.")
+logger.info(f"The lowest season total is {lowest_season_total}.")
+logger.info(f"The highest season total is {highest_season_total}.")
 
 
-# TODO Round the area to two decimal places.
-# Pass in 2 arguments to the round() function.
-#     The first argument is the value to round.
-#     The second argument is the number of decimal places (make it 2 not 12)
-area = round(area, 2)
 
-# log the results
-logger.info(f"The area of a circle with radius {radius} is {area}.")
-logger.info("Much better! (After you fix it.)")

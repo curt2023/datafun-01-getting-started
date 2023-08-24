@@ -33,57 +33,37 @@ import sys
 
 # univariant data (one variable, many readings)
 uni_data = [
+    34,
+    26,
+    98,
+    17,
+    85,
+    42,
+    76,
     105,
-    129,
+    57,
+    1,
+    29,
+    43,
     87,
     86,
-    111,
-    111,
     89,
     81,
-    108,
+    65,
     92,
     110,
     100,
     75,
-    105,
-    103,
-    109,
     76,
-    119,
     99,
     91,
     103,
-    129,
     106,
     101,
     84,
-    111,
-    74,
-    87,
-    86,
-    103,
-    103,
-    106,
-    86,
-    111,
-    75,
-    87,
-    102,
-    121,
-    111,
-    88,
-    89,
-    101,
-    106,
-    95,
-    103,
-    107,
-    101,
-    81,
-    109,
-    104,
+    4,
 ]
+logger.info("Final scores for the John Glenn Rockets 2023")
 logger.info("uni_data = " + str(uni_data))
 
 # Descriptive: Averages and measures of central tendency
@@ -160,12 +140,13 @@ arrayY = [-240, -165, -99, 35, 19, 75, 130, 125]
 slope, intercept = statistics.linear_regression(arrayX, arrayY)
 
 # Choose an x value off in the future (future x)
-future_x = 200
+future_x = 76
 
 # Extend the line out into the unknown future
 # and read the value (of future y)
 future_y = round(slope * future_x + intercept)
 
+logger.info("Stats for the John Glenn Rockets 2023")
 logger.info("Here's some bivariant data (2 variables, together):")
 logger.info(f"x:{arrayX}")
 logger.info(f"y:{arrayY}")
@@ -175,4 +156,4 @@ logger.info(f"   intercept = { intercept:.2f}")
 logger.info("Let's use our best fit line to PREDICT a future value.")
 logger.info(f"   At future x = {future_x:d},")
 logger.info(f"   we predict the value of y will be { future_y:d}.")
-logger.info("How'd we do? Does this make sense given the data?")
+
